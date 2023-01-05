@@ -8,12 +8,12 @@
 x = float(input("Digite o numero desejado\n>>>"))
 y = float(input("Digite outro numero\n>>>"))
 
-sum = float(input("informe o resultado da soma\n>>> "))
+som = float(input("informe o resultado da soma\n>>> "))
 sub = float(input("informe o resultado da subtração\n>>> "))
 mul = float(input("informe o resultado da multiplicação\n>>> "))
 div = float(input("informe o resultado da divisão\n>>> "))
 
-if (sum == (x + y)):
+if (som == (x + y)):
     print("Você acertou!")
 else:
     print("Você errou! A soma de {} e {} é {}" .format(x, y, x + y))
