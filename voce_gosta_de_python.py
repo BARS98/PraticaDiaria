@@ -12,4 +12,4 @@ while True:
         break
     else:
         print("Opa, esta não é a resposta correta, tente novamente")
-        continue
+        
